@@ -1,4 +1,27 @@
-@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+@font-face {
+    font-family: 'NanumSquare';
+    src: url("../../assets/fonts/NanumSquare/NanumSquareB.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquare';
+    src: url("../../assets/fonts/NanumSquare/NanumSquareR.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquare';
+    src: url("../../assets/fonts/NanumSquare/NanumSquareL.ttf");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquare';
+    src: url("../../assets/fonts/NanumSquare/NanumSquareEB.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
 
 * {
     font-family: 'NanumSquare', '맑은 고딕', sans-serif;
