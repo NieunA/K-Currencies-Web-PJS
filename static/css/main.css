@@ -1,0 +1,122 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+
+* {
+    font-family: 'NanumSquare', '맑은 고딕', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #292929;
+}
+
+.vl {
+    width: 0;
+    height: 1rem;
+    border: 1px solid silver;
+}
+
+.discordBlurple {
+    color: #5865F2;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    height: 4rem;
+    background: #323232;
+    padding: 0 2rem;
+    color: silver;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 2.75rem;
+    height: 2.75rem;
+    background-image: url('../../assets/images/k-currencies-avatar.png');
+    background-size: 2.75rem 2.75rem;
+}
+
+@font-face {
+    font-family: 'SUITE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+#brand {
+    font-size: 1.5rem;
+    font-family: 'SUITE';
+    font-weight: bold;
+    margin-left: 0.5rem;
+    padding-bottom: 0.25rem;
+}
+
+.headerItem {
+    margin: 0 0.5rem;
+}
+
+#headerLast {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.linkToGold {
+    cursor: pointer;
+}
+
+.linkToGold:hover {
+    color: #FFD700;
+    text-decoration-color: #FFD700;
+}
+
+.linkUnderline:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 0.25rem;
+}
+
+.linkStrikeout:hover {
+    text-decoration-line: line-through;
+}
+
+a.unavailable {
+    cursor: default;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #323232;
+    color: silver;
+    height: 6rem;
+    padding: 2rem 2rem 0;
+}
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    src: url('../../assets/fonts/AppleSDGothicNeoB.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+#lFooter {
+    display: flex;
+    justify-content: flex-start;
+}
+#rFooter {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
